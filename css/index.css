@@ -11,7 +11,6 @@
 }
 body{
 	background:#e5e8e9;
-	overflow-x:hidden;
 }
 .banner{
 	width:100%;
@@ -128,7 +127,7 @@ body{
 	margin-top:7px;
 }
 .mySkill{
-	width:1015px;
+	width:90%;
 	/* height:1200px; */
 	/* background:blue; */
 	margin:0 auto;
@@ -137,8 +136,8 @@ body{
 	width:290px;
 	height:360px;
 	background:#fff;
-	float:left;
-	margin-top:30px;
+	/* float:left; */
+	margin:30px auto 0;
 	padding-left:0;
 	padding-right:0;
 	transition:all 0.5s ease-out;
@@ -174,7 +173,7 @@ body{
 	background:pink;
 }
 .about{
-	width:1015px;
+	width:90%;
 	margin:0 auto;
 }
 .about ul li img{
@@ -185,9 +184,8 @@ body{
 	position: relative;
 	width:290px;
 	height:200px;
-	float:left;
-	margin-top:10px;
-	margin-right:10px;
+	/* float:left; */
+	margin:30px auto 0;
 	transition:all 0.5s ease-out;
 }
 .about ul li a{
@@ -244,21 +242,21 @@ body{
 	margin: 0 auto;
 }
 .contact-info input[type="text"]{
-	width:25%;
+	width:21%;
 	background: #ffffff;
     border: none;
     color: #c9c9c9;
     margin: 10px 6px;
-    margin-left:90px;
+    margin-left:115px;
     padding: 12px 10px;
     outline: none;
 }
 .contact-info textarea{
 	/* margin-right: 0; */
-    width:90%;
+    width:81.7%;
     resize: none;
     height: 225px;
-    margin-left:90px;
+    margin-left:115px;
 }
 .contact-info input[type="submit"]{
 	color: #fff;
@@ -270,7 +268,7 @@ body{
     border: none;
     margin-top: 5px;
     margin-bottom: 10px;
-    margin-left: 90px;
+    margin-left:115px;
 }
 #input_clear{
 	margin-right:0;
